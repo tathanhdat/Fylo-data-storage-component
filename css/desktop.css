@@ -1,0 +1,57 @@
+body {
+    background-color: var(--very-dark-blue);
+    background: url(../images/bg-desktop.png) bottom no-repeat;
+    background-size: 100% 50%;
+    background-color: var(--very-dark-blue);
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin: 0;
+    margin-right: 2rem;
+    min-width: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+main {
+    padding: 3rem 3rem 4.5rem;
+    min-width: 600px;
+}
+
+.storage__message {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.storage__bar-label {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.storage-left {
+    margin: 0;
+    bottom: 80%;
+    left: 62.5%;
+    right: 0;
+}
+
+.storage-left:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 38px solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    border-right: 0;
+    margin-bottom: -20px;
+}
